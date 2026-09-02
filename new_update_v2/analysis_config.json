@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "analysis_name": "hardened_impostor_reanalysis_v2",
+  "raw_tar_relative_to_analysis_dir": "../colorferet.tar",
+  "canonical_assignment_relative_to_analysis_dir": "../formal_transition_q15_q5_gpu_v1/outputs/reference_probe_assignment.csv",
+  "conditions": [
+    "Original",
+    "15",
+    "11",
+    "10",
+    "9",
+    "8",
+    "7",
+    "6",
+    "5"
+  ],
+  "compression_mode": "probe-only",
+  "preprocess_order": "compress-before-detect",
+  "hard_impostor_top_k": 10,
+  "target_fmrs": [
+    0.001,
+    0.0001
+  ],
+  "bootstrap_iterations": 2000,
+  "bootstrap_seed": 20260821,
+  "seeds": {
+    "42": {
+      "assignment_relative_to_analysis_dir": "../formal_transition_q15_q5_gpu_v1/outputs/reference_probe_assignment.csv",
+      "threshold_relative_to_analysis_dir": "../formal_transition_q15_q5_gpu_v1/outputs/thresholds.json"
+    },
+    "123": {
+      "assignment_relative_to_analysis_dir": "../formal_transition_seed123_partA_gpu_v1/outputs/reference_probe_assignment.csv",
+      "threshold_relative_to_analysis_dir": "../formal_transition_seed123_partA_gpu_v1/outputs/thresholds.json"
+    },
+    "456": {
+      "assignment_relative_to_analysis_dir": "../formal_transition_seed456_gpu_v1/outputs/reference_probe_assignment.csv",
+      "threshold_relative_to_analysis_dir": "../formal_transition_seed456_gpu_v1/outputs/thresholds.json"
+    },
+    "3": {
+      "assignment_relative_to_analysis_dir": "../formal_transition_seed3_gpu_v1/outputs/reference_probe_assignment.csv",
+      "threshold_relative_to_analysis_dir": "../formal_transition_seed3_gpu_v1/outputs/thresholds.json"
+    },
+    "99": {
+      "assignment_relative_to_analysis_dir": "../formal_transition_seed99_gpu_v1/outputs/reference_probe_assignment.csv",
+      "threshold_relative_to_analysis_dir": "../formal_transition_seed99_gpu_v1/outputs/thresholds.json"
+    }
+  },
+  "legacy_score_sources": {
+    "Original": "../formal_transition_q15_q5_gpu_v1/outputs/results_final.csv",
+    "15": "../formal_transition_q15_q5_gpu_v1/outputs/results_final.csv",
+    "11": "../formal_transition_q15_q5_gpu_v1/outputs/results_final.csv",
+    "10": "../formal_transition_q10_q4_gpu_v1/outputs/results_final.csv",
+    "9": "../formal_transition_q15_q5_gpu_v1/outputs/results_final.csv",
+    "8": "../formal_transition_q10_q4_gpu_v1/outputs/results_final.csv",
+    "7": "../formal_transition_q15_q5_gpu_v1/outputs/results_final.csv",
+    "6": "../formal_transition_q10_q4_gpu_v1/outputs/results_final.csv",
+    "5": "../formal_transition_q15_q5_gpu_v1/outputs/results_final.csv"
+  }
+}

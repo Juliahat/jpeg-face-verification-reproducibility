@@ -1,0 +1,96 @@
+# Restricted Color FERET source data
+colorferet.tar
+colorferet.*.tar
+*.tar.gz
+*.tgz
+**/extracted/
+
+# Sensitive derived biometric data and identity-linked metadata
+new_update_v2/embedding_cache/
+**/*embeddings*.npz
+**/probe_index.csv
+**/reference_index.csv
+**/reference_probe_assignment.csv
+**/dev_pairs.csv
+**/eval_pairs.csv
+**/dev_subjects.csv
+**/eval_subjects.csv
+**/pairs.csv
+**/image_manifest.csv
+**/tar_inventory.csv
+**/eligible_subjects.csv
+**/excluded_images.csv
+**/skipped_images.csv
+**/results_final.csv
+**/results_partial.csv
+**/outputs/results_preview.csv
+**/combined_transition_results*.csv
+**/independent_similarity_recheck.csv
+**/manual_pair_audit.csv
+new_update_v2/outputs/analysis/hard_impostor_pairs_fixed_on_original.csv
+new_update_v2/outputs/supplemental_transition/reference_mined_hard_top10_pairs.csv
+
+# Checkpoints, interrupted-run state and logs
+**/checkpoints/
+**/result_chunks/
+**/skipped_chunks/
+*.part
+*.tmp
+*.bak
+*.log
+*.exitcode
+*.stderr
+*.stdout
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Node and generated workbook inspection
+node_modules/
+*.inspect.ndjson
+new_update_v2/storage_baseline_reanalysis_v1/outputs/qa_workbook_previews/
+new_update_v2/storage_baseline_reanalysis_v1/outputs/_workbook_data.json
+
+# Office, archives and generated manuscript artifacts
+~$*
+*.docx
+*.pptx
+*.xlsx
+*.zip
+*.7z
+*.pdf
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+# Temporary QA/render directories
+.tmp_*/
+.docx_*/
+.experiment_result_*/
+**/qa_tmp/
+**/soffice_profile_*/
+**/soffice_convert_*/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

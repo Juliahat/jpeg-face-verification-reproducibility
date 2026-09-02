@@ -1,0 +1,88 @@
+{
+  "validation_timestamp_utc": "2026-08-21T02:52:34.878868+00:00",
+  "all_checks_passed": true,
+  "passed_checks": 16,
+  "total_checks": 16,
+  "checks": [
+    {
+      "check": "no_preexisting_embedding_cache",
+      "passed": true,
+      "evidence": "candidate_count=0"
+    },
+    {
+      "check": "identity_mapping_equal_across_seeds",
+      "passed": true,
+      "evidence": "369a9f4217ec0012d91d41250fb6abffe03507eeaf6565ad2509873777d041fe"
+    },
+    {
+      "check": "five_seed_protocol_rows",
+      "passed": true,
+      "evidence": "rows=5"
+    },
+    {
+      "check": "all_nonmate_pair_count_formula",
+      "passed": true,
+      "evidence": "probes × (same-split references − 1)"
+    },
+    {
+      "check": "hard_top_k_per_probe",
+      "passed": true,
+      "evidence": "groups=6830; k=10"
+    },
+    {
+      "check": "hard_pairs_are_nonmates",
+      "passed": true,
+      "evidence": "rows=68300"
+    },
+    {
+      "check": "hard_ranks_complete",
+      "passed": true,
+      "evidence": "ranks 1..k once per probe"
+    },
+    {
+      "check": "hard_original_scores_descend",
+      "passed": true,
+      "evidence": "Original score ranking"
+    },
+    {
+      "check": "metric_grid_complete_unique",
+      "passed": true,
+      "evidence": "rows=270 expected=270"
+    },
+    {
+      "check": "fmr_recomputed_from_counts",
+      "passed": true,
+      "evidence": "false_matches / valid_impostor_scores"
+    },
+    {
+      "check": "paired_original_delta_zero",
+      "passed": true,
+      "evidence": "rows=30"
+    },
+    {
+      "check": "development_targets_not_exceeded",
+      "passed": true,
+      "evidence": "empirical achieved FMR <= requested target"
+    },
+    {
+      "check": "development_point01pct_resolved_nonzero_allowance",
+      "passed": true,
+      "evidence": "all seeds permit at least one false match"
+    },
+    {
+      "check": "legacy_genuine_scores_reproduced",
+      "passed": true,
+      "evidence": "max_abs_diff=2.31e-07"
+    },
+    {
+      "check": "cluster_ci_contains_point_estimate",
+      "passed": true,
+      "evidence": "all FMR rows"
+    },
+    {
+      "check": "no_raw_images_or_crops_in_cache",
+      "passed": true,
+      "evidence": "files=12"
+    }
+  ]
+}

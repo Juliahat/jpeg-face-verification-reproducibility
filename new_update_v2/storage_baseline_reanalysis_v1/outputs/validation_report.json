@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks_passed": 13,
+  "checks_total": 13,
+  "checks": {
+    "all_source_files_exist": true,
+    "five_seeds_x_eight_conditions": true,
+    "cross_seed_conditions_complete": true,
+    "full_cohort_993_subjects": true,
+    "full_cohort_1728_probes_each_condition": true,
+    "ees_anchor_exactly_ppm_divided_by_20": true,
+    "ees_anchor_bracketed_by_q90_q80": true,
+    "q15_to_q5_reduction_positive": true,
+    "q15_to_q5_relative_reduction_reproduces_32_6pct": true,
+    "cross_seed_and_full_cohort_q15_close": true,
+    "cross_seed_and_full_cohort_q5_close": true,
+    "all_refined_conditions_exceed_ees_numeric_ceiling": true,
+    "all_derived_values_finite": true
+  }
+}

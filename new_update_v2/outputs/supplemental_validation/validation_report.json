@@ -1,0 +1,62 @@
+{
+  "validation_status": "PASS",
+  "checks_passed": 34,
+  "checks_total": 34,
+  "checks": {
+    "genuine_metric_row_count_240": true,
+    "genuine_transition_row_count_345": true,
+    "transition_summary_row_count_69": true,
+    "fmr_metric_row_count_1485": true,
+    "fmr_transition_row_count_360": true,
+    "reference_hard_pair_row_count_68300": true,
+    "genuine_metric_unique_keys": true,
+    "genuine_transition_unique_keys": true,
+    "fmr_metric_unique_keys": true,
+    "fmr_transition_unique_keys": true,
+    "reference_hard_pair_unique_keys": true,
+    "reference_hard_pairs_are_nonmates": true,
+    "reference_hard_ranks_are_one_to_ten": true,
+    "five_seeds_everywhere": true,
+    "three_policies_everywhere": true,
+    "combined_condition_grid_complete": true,
+    "primary_contrasts_complete": true,
+    "expanded_contrasts_complete": true,
+    "subject_cluster_for_all_intervals": true,
+    "five_thousand_resamples": true,
+    "finite_genuine_metrics": true,
+    "finite_genuine_deltas": true,
+    "finite_fmr_metrics": true,
+    "finite_fmr_deltas": true,
+    "fmr_point_estimates_recompute": true,
+    "tar_is_one_minus_fnmr": true,
+    "paired_tar_is_negative_fnmr": true,
+    "first_version_points_match": true,
+    "wide_original_validated": true,
+    "q13_validated": true,
+    "legacy_primary_first_common_q7_q8": true,
+    "fmr_0_1_primary_first_common_q7_q8": true,
+    "fmr_0_01_primary_first_common_original_q15": true,
+    "exactly_three_positive_adjacent_fmr_cells": true
+  },
+  "first_version_maximum_absolute_point_difference": 9.714451465470121e-17,
+  "primary_grid_first_common_transition": {
+    "full_dev_fmr_0.01pct": "Q15-Original",
+    "full_dev_fmr_0.1pct": "Q7-Q8",
+    "legacy_sampled_eer": "Q7-Q8"
+  },
+  "expanded_grid_first_common_transition": {
+    "full_dev_fmr_0.01pct": "Q9-Q10",
+    "full_dev_fmr_0.1pct": "Q7-Q8",
+    "legacy_sampled_eer": "Q7-Q8"
+  },
+  "source_sha256": {
+    "genuine_metrics": "ac8f1bd2516b89de47aa1b314325d5f9b7d5b5f58623d49669e08aa8580a9482",
+    "genuine_transitions": "838dde2e7cb59365a39152d47a4a82e470b550204884d4f93aa436fa0564d846",
+    "transition_summary": "eac677db88f07a12e07097d268627cdc2c0631364149fa610d23e63be6dbe794",
+    "fmr_metrics": "9fa180c90374f095579702018ec593e34b5760550f6e268cdcfd813cab2887be",
+    "fmr_transitions": "501bc385417add0f23f539e16eea9aa22504e09a2d712a81e59b3f01eeb8f09b",
+    "first_comparison": "42b5ce1c952905e1b1cafe9f387e1b39091d57948efe363e6e1152eb124ff215",
+    "reference_hard_pairs": "676c6a224ae64bf4205a25d2650081c101b5e74f15de05be0b7a7d49346eeab0",
+    "internal_validation": "4ba3f80f03b6a623cfe8c4428555adf82f54cec6058e9cba3c99b7c99e9f6167"
+  }
+}

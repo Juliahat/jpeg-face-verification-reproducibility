@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its derived aggregate results, please cite the
+  associated manuscript and the archived software release.
+title: "Probe-Side JPEG Compression in Face Verification: Reproducibility Artifact"
+type: software
+authors:
+  - family-names: "Tan"
+    given-names: "Aihong"
+version: 1.0.0
+date-released: 2026-09-01
+license: MIT
+abstract: >-
+  Code, frozen configurations and aggregate validation artifacts for a
+  five-split Color FERET study of probe-side JPEG compression, fixed
+  operational thresholds, exhaustive non-mates, hard-impostor stress tests,
+  subject-cluster bootstrap inference, multiplicity-adjusted degradation
+  analysis and encoded-payload trade-offs.
+keywords:
+  - face verification
+  - JPEG compression
+  - Color FERET
+  - biometric evaluation
+  - false non-match rate
+  - false match rate
+  - reproducible research

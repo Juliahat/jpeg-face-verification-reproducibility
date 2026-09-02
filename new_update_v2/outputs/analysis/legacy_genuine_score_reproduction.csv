@@ -1,0 +1,10 @@
+condition,legacy_source,genuine_rows_checked,jointly_finite_rows,finite_nan_pattern_equal,max_absolute_cosine_difference,mean_absolute_cosine_difference,within_1e_6
+Original,results_final.csv,1728,1728,True,1.7232487592444556e-07,8.70391775969471e-09,True
+15,results_final.csv,1728,1728,True,1.173287957900726e-07,8.308375579473981e-09,True
+11,results_final.csv,1728,1728,True,2.1658985882577753e-07,8.124278965459828e-09,True
+10,results_final.csv,1728,1728,True,2.309614490769718e-07,6.841988652305056e-09,True
+9,results_final.csv,1728,1728,True,1.1678210443122339e-07,7.786584460416645e-09,True
+8,results_final.csv,1728,1728,True,2.0189623639588206e-07,7.4175988454311086e-09,True
+7,results_final.csv,1728,1728,True,1.9915142468462932e-07,7.831091562092338e-09,True
+6,results_final.csv,1728,1728,True,2.0421884372456844e-07,6.653267502703292e-09,True
+5,results_final.csv,1728,1727,True,1.1084758100299297e-07,6.543983322683793e-09,True

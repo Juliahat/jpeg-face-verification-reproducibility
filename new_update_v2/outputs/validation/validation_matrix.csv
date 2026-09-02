@@ -1,0 +1,17 @@
+check,passed,evidence
+no_preexisting_embedding_cache,True,candidate_count=0
+identity_mapping_equal_across_seeds,True,369a9f4217ec0012d91d41250fb6abffe03507eeaf6565ad2509873777d041fe
+five_seed_protocol_rows,True,rows=5
+all_nonmate_pair_count_formula,True,probes × (same-split references − 1)
+hard_top_k_per_probe,True,groups=6830; k=10
+hard_pairs_are_nonmates,True,rows=68300
+hard_ranks_complete,True,ranks 1..k once per probe
+hard_original_scores_descend,True,Original score ranking
+metric_grid_complete_unique,True,rows=270 expected=270
+fmr_recomputed_from_counts,True,false_matches / valid_impostor_scores
+paired_original_delta_zero,True,rows=30
+development_targets_not_exceeded,True,empirical achieved FMR <= requested target
+development_point01pct_resolved_nonzero_allowance,True,all seeds permit at least one false match
+legacy_genuine_scores_reproduced,True,max_abs_diff=2.31e-07
+cluster_ci_contains_point_estimate,True,all FMR rows
+no_raw_images_or_crops_in_cache,True,files=12

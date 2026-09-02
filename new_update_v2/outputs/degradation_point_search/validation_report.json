@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks_passed": 11,
+  "checks_total": 11,
+  "checks": {
+    "expected_240_rows": true,
+    "five_seeds": true,
+    "three_policies": true,
+    "two_comparison_families": true,
+    "unique_keys": true,
+    "all_finite": true,
+    "simultaneous_not_narrower_than_pointwise": true,
+    "family_size_eight": true,
+    "subject_cluster": true,
+    "five_distinct_evaluation_allocations": true,
+    "existing_120_adjacent_points_exactly_reproduced": true
+  }
+}

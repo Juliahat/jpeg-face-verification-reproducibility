@@ -1,0 +1,37 @@
+{
+  "analysis_timestamp_utc": "2026-08-21T02:52:26.615947+00:00",
+  "analysis_scope": "all same-split non-mate references plus fixed Original-selected hard top-k stress cohort",
+  "seeds": [
+    42,
+    123,
+    456,
+    3,
+    99
+  ],
+  "conditions": [
+    "Original",
+    "15",
+    "11",
+    "10",
+    "9",
+    "8",
+    "7",
+    "6",
+    "5"
+  ],
+  "hard_impostor_top_k": 10,
+  "hard_selection": "For each Evaluation probe and seed, rank valid different-identity references by Original cosine similarity; use top-k with reference-index tie break; freeze exact pairs for every JPEG condition.",
+  "hard_condition_interpretation": "Stress test conditional on difficult non-mates; not a population FMR estimate.",
+  "threshold_source": "Seed-local Development Original only; Evaluation never calibrates thresholds.",
+  "threshold_policies": [
+    "legacy_sampled_eer",
+    "full_dev_fmr_0.1pct",
+    "full_dev_fmr_0.01pct"
+  ],
+  "fmr_denominator": "valid impostor scores; failed comparisons are separately counted",
+  "fnmr_denominators": "FNMR uses valid genuine scores; FNMR_attempt counts failed genuine attempts as non-matches",
+  "uncertainty": "Wilson score interval is descriptive at score level; primary dependence-aware interval resamples probe images as clusters.",
+  "cross_seed_note": "Five seed splits reuse identities and embeddings; seed summaries are descriptive and are not pooled as independent trials.",
+  "legacy_reproduction_all_conditions_within_1e_6": true,
+  "raw_images_or_face_crops_saved": false
+}
